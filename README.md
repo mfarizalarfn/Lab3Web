@@ -335,4 +335,6 @@ Berikut hasilnya : <br>
 
 ![gambar 8](image/pict8.png) <br>
 <br>
+<br>
 
+Thank you
