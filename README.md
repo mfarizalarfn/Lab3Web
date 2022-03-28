@@ -270,3 +270,69 @@ Berikut hasilnya : <br>
 
 ![gambar 7](image/pict7.PNG) <br>
 <br>
+
+**Pertanyaan dan Tugas**<br>
+1. Buatlah form yang menampilkan *dropdown* menu dan *listbox* dengan multiple selection.<br>
+
+**Jawab**
+
+Berikut ini source code yang telah saya buat untuk memenuhi soal diatas <br>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+
+<body>
+    <header>
+        <h1>Membuat Form</h1>
+    </header>
+    <form action="proses.php" method="post">
+        <fieldset>
+            <legend>Data Pelanggan</legend>
+            <p>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama">
+            </p>
+            <p>
+                <label for="alamat">Alamat</label>
+                <textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+            </p>
+            <p>
+                <label>Jenis Kelamin</label>
+                    <label for="jeniskelamin">Jenis Kelamin :</label>
+                        <select name="jeniskelamin" id="jeniskelamin">
+                            <option value="boy">Laki-laki</option>
+                            <option value="girl">Perempuan</option>
+                        </select>
+                        <br><br>
+                
+                <label>Agama :<input type="text" Placeholder="Input agama anda"/></label>
+                        <br><br>
+                        <select name="agama" size="5" multiple="multiple">
+                            <option value="islam"> Islam </option>
+                            <option value="kristen"> kristen </option>
+                            <option value="hindu"> Hindu </option>
+                            <option value="budha"> Budha </option>
+                            <option value="katholik"> Katholik </option>
+                        </select>
+                <!--<input id="jk_l" type="radio" name="kelamin" value="L" /><label for="jk_l"> Laki-laki </label>
+                <input id="jk_p" type="radio" name="kelamin" value="P" /><label for="jk_p"> Perempuan </label>-->
+            </p>
+            <p><input type="submit" value="Login"></p>
+        </fieldset>
+    </form>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</body>
+</html>
+```
+<br>
+Berikut hasilnya : <br>
+<br>
+
+![gambar 8](image/pict8.png) <br>
+<br>
+
