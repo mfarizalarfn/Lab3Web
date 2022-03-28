@@ -151,3 +151,46 @@ Berikut hasilnya : <br>
 
 ![gambar 4](image/pict4.PNG) <br>
 <br>
+
+6. Mengatur Margin dan Padding <br>
+Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding dan cellspacing pada tag table <br>
+
+```
+<table border="1" cellpadding="4" cellspacing="0">
+```
+<br>
+
+7. Menggabungkan Sel Data <br>
+Untuk menggabungkan sel data, gunakan atribut rowspan dan colspan. Atribut rowspan untuk menggabungkan baris (secara vertikal) dan colspan untuk menggabungkan kolom (secara horizontal)<br>
+
+```
+    <table border="1" cellpadding="4" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Fakultas</th>
+                <th>Program Studi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td rowspan="3">Teknik</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Teknik Industri</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Teknik Lingkungan</td>
+            </tr>
+        </tbody>
+    </table>
+```
+Berikut hasilnya : <br>
+<br>
+
+![gambar 5](image/pict5.PNG) <br>
+<br>
