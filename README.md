@@ -11,7 +11,7 @@
 
 **Langkah - langkah praktikum**<br>
 
-1. Membuat file html baru dengan nama lab3_list.html seperti berikut :<br>
+1. Membuat file html baru dengan nama **lab3_list.html** seperti berikut :<br>
 
 ```
 <!DOCTYPE html>
@@ -32,18 +32,18 @@
 ```
 <br>
 
-2. Membuat ordered list <br>
+2. Membuat Ordered List <br>
 Tambahkan kode untuk membuat *Orderes list* seperti berikut : <br>
 
 ```
-<section id="order-list">
+    <section id="order-list">
         <h2>Ordered List</h2>
         <ol>
         <li>Pemrograman Web</li>
         <li>Sistem Informasi</li>
         <li>Basis Data 2</li>
         </ol>
-</section>
+    </section>
 ```
 <br>
 Simpanlah perubahan tersebut dan lakukan refresh pada web browser untuk melihat hasilnya<br>
@@ -52,22 +52,102 @@ Simpanlah perubahan tersebut dan lakukan refresh pada web browser untuk melihat 
 ![gambar 1](image/pict1.PNG) <br>
 <br>
 
-3. Membuat unordered list <br>
+3. Membuat Unordered List <br>
 Tambahkan kode berikut untuk membuat *Unorder list* , setelah deklarasi ordered list pada section unordered-list, seperti berikut : <br>
 
 ```
-<section id="unorder-list">
+    <section id="unorder-list">
         <h2>Unordered List</h2>
         <ul type="square">
         <li>Jaringan Komputer</li>
         <li>Struktur Data</li>
         <li>Algoritma &amp; Pemrograman</li>
         </ul>
-</section>
+    </section>
 ```
 <br>
 Simpan kembali perubahannya kemudian refresh halaman web, berikut hasilnya <br>
 <br>
 
 ![gambar 2](image/pict2.PNG) <br>
+<br>
+
+4. Membuat Description List <br>
+Tambahkan kode untuk membuat description list setelah deklarasi unorderd-list
+
+```
+    <section id="unorder-list">
+        <h2>Description List</h2>
+        <dl>
+        <dt>Fakultas Teknik</dt>
+        <dd>Teknik Industri</dd>
+        <dd>Teknik Informatika</dd>
+        <dd>Teknik Lingkungan</dd>
+        <dt>Fakultas Ekonomi dan Bisnis</dt>
+        <dd>Akuntansi</dd>
+        <dd>Manajemen</dd>
+        <dd>Bisnis Digital</dd>
+        </dl>
+    </section>
+```
+<br>
+Berikut hasilnya :<br>
+<br>
+
+![gambar 3](image/pict3.PNG) <br>
+<br>
+
+5. Membuat Table <br>
+Buat file baru dengan nama **lab3_tabel.html** seperti berikut <br>
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat Table</h1>
+    </header>
+</body>
+</html>
+```
+<br>
+Tambahkan kode berikut untuk membuat tabel sederhana <br>
+
+```
+    <table border="1" cellpadding="4" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Fakultas</th>
+                <th>Program Studi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Teknik</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Teknik</td>
+                <td>Teknik Industri</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Teknik</td>
+                <td>Teknik Lingkungan</td>
+            </tr>
+        </tbody>
+    </table>
+```
+Berikut hasilnya : <br>
+<br>
+
+![gambar 4](image/pict4.PNG) <br>
 <br>
