@@ -232,8 +232,8 @@ Buat file baru dengan nama **lab3_form.html**  <br>
             <p><input type="submit" value="Login"></p>
         </fieldset>
     </form>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </body>
-
 </html>
 ```
 <br>
@@ -241,4 +241,32 @@ Berikut hasilnya : <br>
 <br>
 
 ![gambar 6](image/pict6.PNG) <br>
+<br>
+
+9. Menabahkan Style pada Form <br>
+Agar tampilan form lebih menarik, bisa ditambahkan CSS seperti berikut, dan menghubungkan file CSS eksternalnya <br>
+
+```
+<style>
+    form p > label {
+        display: inline-block;
+        width: 100px;
+    }
+    form input[type="text"], form textarea {
+        border: 1px solid #197a43;
+    }
+    form input[type="submit"] {
+        border: 1px solid #197a43;
+        background-color: #197a43;
+        color: #ffffff;
+        font-weight: bold;
+        padding: 5px 15px;
+    }
+</style>
+```
+<br>
+Berikut hasilnya : <br>
+<br>
+
+![gambar 7](image/pict7.PNG) <br>
 <br>
